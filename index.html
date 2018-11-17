@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>X But For Y</title>
+    <script src="https://unpkg.com/vue"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css"
+    />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
+    <style>
+      @media (min-width: 767px) {
+        .custom-columns:nth-child(even) {
+          display: flex;
+          flex-direction: row-reverse;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main id="app">
+      <!-- hero section -->
+      <section id="hero" class="hero is-large is-info is-bold">
+        <div class="hero-head">
+          <header class="navbar">
+            <div class="container">
+              <div class="navbar-brand">
+                <a href="#hero" class="navbar-item ">
+                  {{ startups[i].name }}
+                </a>
+              </div>
+              <div id="navbar" class="navbar-menu">
+                <div class="navbar-end">
+                  <span class="navbar-item">
+                    <button class="button is-link is-rounded" @click="i++">
+                      <span>Get Started</span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </header>
+        </div>
+
+        <!-- Hero content: will be in the middle -->
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <h1 class="is-size-1 is-size-2-mobile title">
+              {{ startups[i].name }}
+            </h1>
+            <h2 class="is-size-3 is-size-4-mobile subtitle">
+              Like {{ startups[i].x }} but for {{ startups[i].y }}
+            </h2>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="section has-background-light">
+        <div class="container">
+          <div class="columns">
+            <template v-for="feature in startups[i].features">
+              <div class="column is-4">
+                <h3 class="title is-spaced">{{ feature.title }}</h3>
+                <p class="subtitle">{{ feature.p }}</p>
+              </div>
+            </template>
+          </div>
+        </div>
+      </section>
+
+      <section id="zigzag" class="section">
+        <div class="container">
+          <h2 class="title is-size-2 has-text-centered">How It Works</h2>
+          <br />
+          <template v-for="column in startups[i].zigzag">
+            <div class="columns is-vcentered custom-columns">
+              <div class="column is-7">
+                <h3 class="title is-spaced">{{ column.title }}</h3>
+                <p class="subtitle">{{ column.p }}</p>
+                <button class="button is-link is-rounded" @click="i++">
+                  <span>{{ column.cta }}</span>
+                </button>
+              </div>
+              <div class="column is-5">
+                <img
+                  v-bind:src="column.img"
+                  alt="this should be a photo"
+                  class="image is-1-by-1"
+                />
+              </div>
+            </div>
+          </template>
+        </div>
+      </section>
+
+      <div id="cta" class="section has-background-light">
+        <div class="container has-text-centered">
+          <h3 class="title is-spaced">{{ startups[i].cta.title }}</h3>
+          <p class="subtitle">{{ startups[i].cta.p }}</p>
+          <button class="button is-link is-rounded is-large" @click="i++">
+            <span>Get Started</span>
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Like X But For Y</strong> by <a href="">Leo Cabibihan</a>.
+        </p>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
+<!-- <button @click="i++">horses</button> {{ i }}{{ startups[i] }} -->

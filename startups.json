@@ -1,0 +1,88 @@
+[
+  {
+    "name": "manure.io",
+    "x": "Uber",
+    "y": "Horses",
+    "features": [
+      {
+        "title": "feature",
+        "p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, odit saepe! Dolores numquam non iste nisi."
+      },
+      {
+        "title": "feature",
+        "p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, odit saepe! Dolores numquam non iste nisi."
+      },
+      {
+        "title": "feature",
+        "p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, odit saepe! Dolores numquam non iste nisi."
+      }
+    ],
+    "zigzag": [
+      {
+        "title": "feature",
+        "p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, odit saepe! Dolores numquam non iste nisi.",
+        "img": "https://i.kym-cdn.com/entries/icons/facebook/000/021/994/Untitled-2.jpg",
+        "cta": "Get Started"
+      },
+      {
+        "title": "feature",
+        "p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, odit saepe! Dolores numquam non iste nisi.",
+        "img": "https://i.kym-cdn.com/entries/icons/facebook/000/021/994/Untitled-2.jpg",
+        "cta": "Pls Try"
+      },
+      {
+        "title": "feature",
+        "p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, odit saepe! Dolores numquam non iste nisi.",
+        "img": "https://i.kym-cdn.com/entries/icons/facebook/000/021/994/Untitled-2.jpg",
+        "cta": "I'm Poor"
+      }
+    ],
+    "cta": {
+      "title": "Join The Horse Revolution",
+      "p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, odit saepe! Dolores numquam non iste nisi."
+    }
+  },
+  {
+    "name": "instaroll.io",
+    "x": "Instacart",
+    "y": "Toilet Paper",
+    "features": [
+      {
+        "title": "feature",
+        "p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, odit saepe! Dolores numquam non iste nisi."
+      },
+      {
+        "title": "feature",
+        "p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, odit saepe! Dolores numquam non iste nisi."
+      },
+      {
+        "title": "feature",
+        "p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, odit saepe! Dolores numquam non iste nisi."
+      }
+    ],
+    "zigzag": [
+      {
+        "title": "feature",
+        "p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, odit saepe! Dolores numquam non iste nisi.",
+        "img": "https://i.kym-cdn.com/entries/icons/facebook/000/021/994/Untitled-2.jpg",
+        "cta": "Get Started"
+      },
+      {
+        "title": "feature",
+        "p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, odit saepe! Dolores numquam non iste nisi.",
+        "img": "https://i.kym-cdn.com/entries/icons/facebook/000/021/994/Untitled-2.jpg",
+        "cta": "Pls Try"
+      },
+      {
+        "title": "feature",
+        "p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, odit saepe! Dolores numquam non iste nisi.",
+        "img": "https://i.kym-cdn.com/entries/icons/facebook/000/021/994/Untitled-2.jpg",
+        "cta": "I'm Poor"
+      }
+    ],
+    "cta": {
+      "title": "hello person",
+      "p": "ihfgoewjfio asiodjfios aiodfj io sand cioa wej fopkdf aweiof niosejfos nfiowehjiojb"
+    }
+  }
+]

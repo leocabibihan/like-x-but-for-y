@@ -1,0 +1,79 @@
+    <ul>
+      <li>
+        I'm taking a piss
+        <a :href="docsURL" target="_blank">
+          {{ humanizeURL(docsURL) }}
+        </a>
+      </li>
+      <li>
+        For live help with simple questions, check out
+        <a :href="discordURL" target="_blank">
+          the Discord chat
+        </a>
+      </li>
+      <li>
+        For more complex questions, post to
+        <a :href="forumURL" target="_blank">
+          the forum
+        </a>
+      </li>
+    </ul>
+
+            humanizeURL: function (url) {
+          return url
+            .replace(/^https?:\/\//, '')
+            .replace(/\/$/, '')
+        }
+              var app = new Vue({
+        el: "#app",
+        data: {
+          name: "hi"
+        }
+      });
+            <h3>{{ greet("horses") }}</h3>
+                add: function(inc) {
+      this.i += inc;
+    },
+        greet: function(a) {
+      return "we love our " + a + " at " + this.name;
+    }
+
+    app.features.push("a");
+console.log(app.features);
+
+    name: "manure.io",
+    //a: true,
+    x: "Uber",
+    y: "Horses",
+
+    features: [
+      { title: "feature 1", p: "words and stuff" },
+      { title: "feature 2", p: "words and stuff" },
+      { title: "feature 3", p: "words and stuff" }
+    ],
+    testimonials: [],
+    pricing: [],
+    about: ""
+
+          <h1>
+        <a v-bind:href="name">{{ name }}</a> like {{ x }} but for {{ y }}
+      </h1>
+      <button @click="i++">horses</button> {{ i }}
+
+      <template v-for="feature in features">
+        <h3>{{ feature.title }}</h3>
+        <p>{{ feature.p }}</p>
+      </template>
+
+
+
+
+            <section id="features" class="section">
+        <div class="container">
+          <div class="columns" for="feature in startups[i].features">
+            <div class="column is-4">
+              <h3 class="title is-4 is-spaced">{{ feature.title }}</h3>
+              <p class="subtitle is-5"></p>
+            </div>
+          </div>
+        </div>
